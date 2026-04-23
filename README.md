@@ -10,6 +10,8 @@ proyecto_rostros/
 │   └── requirements.txt
 │
 
+
+
 ├── 📂 api-2/                      # Servicio de consulta de resultados
 
 │   ├── main.py
@@ -17,13 +19,17 @@ proyecto_rostros/
 │   └── requirements.txt
 │
 
+
+
+
 ├── 📂 detection-service/           # Detector de rostros (OpenCV)
 
 │   ├── ⭐️ main.py                  # (Ajustado con scaleFactor=1.1, minNeighbors=7)
 │   ├── Dockerfile
 │   └── requirements.txt
-
 │
+
+
 ├── 📂 age-detection/              # Tu IA de menores
 
 │   ├── main.py
@@ -32,6 +38,8 @@ proyecto_rostros/
 │   └── requirements.txt
 │
 
+
+
 ├── 📂 orchestrator-3/             # EL ARTISTA (Aplica el pixelado)
 
 │   ├── ⭐️ main.py                  # (Código corregido con OpenCV y Boto3)
@@ -39,11 +47,16 @@ proyecto_rostros/
 │   └── ⭐️ requirements.txt        # (Debe incluir opencv-python-headless y boto3)
 │
 
+
+
 ├── 📂 orchestrator-1/             # Otros orquestadores de flujo
 
-├── 📂 orchestrator-2/
 
+
+├── 📂 orchestrator-2/
 │
+
+
 ├── 📂 db/                         # Configuración de base de datos
 
 │   └── init.sql
